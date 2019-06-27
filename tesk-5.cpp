@@ -42,52 +42,17 @@ string countVowels(string bsr) {
 }
 
 int main() {
- string bsr;
- bsr="aaceeeb";
- cout<<bsr<<endl;
- cout<<countVowels(bsr);
-if (string(countVowels(bsr)) == countVowels("aaceeeb")) 
-{
-                              
-  cout << "ok"<<endl;
-} else 
-{
-  cout << "false"<<endl;
-}
+if (countVowels("aeioyu") == "a = 1e =1i =1o =1u =1y =1") {
+      cout << "ok" << endl;
+    } else {
+      cout << "false" << endl;
+    }
  
-  bsr=" ";
-  cout<<bsr<<endl;  
- cout<<countVowels(bsr);
-if (string(countVowels(bsr)) == countVowels(" ")) 
-{
-                              
-  cout << "ok"<<endl;
-} else 
-{
-  cout << "false"<<endl;
-}  
- bsr="1234";
- cout<<bsr<<endl;   
- cout<<countVowels(bsr);
-if (string(countVowels(bsr)) == countVowels("aaceeeb")) 
-{
-                              
-  cout << "ok"<<endl;
-} else 
-{
-  cout << "false"<<endl;
-} 
- bsr="sayriuoosafued";
- cout<<bsr<<endl;   
- cout<<countVowels(bsr);
-if (string(countVowels(bsr)) == countVowels("sayriuoosafued")) 
-{
-                              
-  cout << "ok"<<endl;
-} else 
-{
-  cout << "false"<<endl;
-} 
- 
+    if (countVowels("abbbbb") == "a = 1e =0i =0o =0u =0y =0") {
+      cout << "ok" << endl;
+    } else {
+      cout << "false" << endl;
+    }
+    
 return 0;
 }

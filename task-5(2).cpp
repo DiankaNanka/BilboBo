@@ -24,30 +24,17 @@ string changeCase(string consoleInputString) {
 }
 
 int main() {  
-    string consoleInputString;
-    consoleInputString = "A smOll BAg";
-    cout << consoleInputString<<":"<<endl;
-    cout << changeCase(consoleInputString)<<" - ";
-    if (string(changeCase(consoleInputString)) == changeCase("a smoll Bag")) 
-{
-                              
-  cout << "ok"<<endl;
-} else 
-{
-  cout << "false"<<endl;
+   if ( changeCase("AbE") == "abe") {
+  cout << "ok";
+} else {
+  cout << "false";
 }
-     
-    consoleInputString = "I lIvE In MOscOw";
-    cout << consoleInputString<<":"<<endl;
-    cout << changeCase(consoleInputString)<<" - ";
-    if (string(changeCase(consoleInputString)) == changeCase("i live in Moscow")) 
-{
-                              
-  cout << "ok"<<endl;
-} else 
-{
-  cout << "false"<<endl;
-}   
+
+if ( changeCase("AbEEI") == "abeei") {
+  cout << "ok";
+} else {
+  cout << "false";
+}
 
 return 0;
 }
