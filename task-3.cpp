@@ -16,6 +16,7 @@ int main() {
         || initialStr[i] == 'I' 
         || initialStr[i] == 'O'
         || initialStr[i] == 'U'
+        || initialStr[i] == 'Y'
   ) {
     resultString += tolower(initialStr[i]);
   } else {

@@ -14,6 +14,7 @@ string changeCase(string consoleInputString) {
         || consoleInputString[i] == 'I' 
         || consoleInputString[i] == 'O'
         || consoleInputString[i] == 'U'
+        || consoleInputString[i] == 'Y'
         ) {
            result += tolower(consoleInputString[i]);
           } else {
